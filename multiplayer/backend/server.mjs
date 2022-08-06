@@ -38,6 +38,8 @@ io.on('connection', function (socket) {
         socket.emit('createRoom', joinRoomResponse );
         console.log(`${joinRoomResponse.playerId} created room ${joinRoomResponse.roomId}`);
     });
+    
+    //Snake Roaming delite or game on play 
 
     // join room
     socket.on('joinRoom', function (data) {
