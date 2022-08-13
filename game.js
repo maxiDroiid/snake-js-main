@@ -137,7 +137,7 @@ class Apple{
             }
 
             this.size = snake.size
-            this.color = "red"
+            this.color = "black"
 
             if (!isTouching) {
                 break;
@@ -146,5 +146,5 @@ class Apple{
     }
 }
 
-const snake = new Snake(20,20,20);
+const snake = new Snake(30,30,30);
 let apple = new Apple();
